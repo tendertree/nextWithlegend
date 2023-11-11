@@ -8,8 +8,9 @@ enableReactTracking({
 });
 const name$ = observable("Annyong");
 export default function Home() {
-	const name = name$.get();
 	return (
-		<div>{name}</div>
-	)
+    const name = name$.get();
+
+  return <div>{name}</div>;
+  )
 }
